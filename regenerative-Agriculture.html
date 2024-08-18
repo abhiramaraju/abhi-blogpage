@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Regenerative Agriculture</title>
+  <style>
+    /* Color Palette */
+    :root {
+      --first-color: #388e3c; /* Dark Green */
+      --second-color: #8bc34a; /* Light Green */
+      --third-color: #dce775; /* Pale Lime */
+      --fourth-color: #fff59d; /* Light Yellow */
+    }
+
+    /* Reset some default styles */
+    body, h1, h2, h3, p, ul {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Global Styles */
+    body {
+      font-family: "Arial", sans-serif;
+      line-height: 1.8;
+      color: #333;
+      background-color: var(--third-color); /* Pale Lime */
+      background-image: url('image(2).jpg'); /* Background Image */
+      background-size: cover; /* Cover the entire area */
+      background-position: center; /* Center the image */
+      padding: 0;
+      margin: 0;
+    }
+
+    /* Header Styles */
+    header {
+      background-color: var(--first-color); /* Dark Green */
+      color: #ffffff;
+      padding: 1rem 0;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      position: relative;
+    }
+
+    header .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+      font-weight: 700;
+      color: #ffffff;
+      text-align: center;
+      flex: 1;
+    }
+
+    header nav {
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+    }
+
+    header nav a {
+      color: #ffffff;
+      text-decoration: none;
+      font-size: 1rem;
+      transition: color 0.3s, transform 0.3s;
+    }
+
+    header nav a:hover {
+      color: var(--second-color); /* Light Green */
+      transform: translateY(-2px);
+    }
+
+    /* Main Content Styles */
+    main {
+      padding: 2rem 1rem;
+    }
+
+    .content {
+      max-width: 800px;
+      margin: 0 auto;
+      background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .content h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: var(--first-color); /* Dark Green */
+    }
+
+    .content h3 {
+      font-size: 1.5rem;
+      margin-top: 1.5rem;
+      color: #004d00; /* Darker Green */
+    }
+
+    .content p {
+      font-size: 1rem;
+      line-height: 1.6;
+      margin-bottom: 1rem;
+    }
+
+    /* Footer Styles */
+    footer {
+      background-color: var(--first-color); /* Dark Green */
+      color: #ffffff;
+      padding: 1.5rem 0;
+      text-align: center;
+      box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+      position: relative;
+    }
+
+    footer .container {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    footer p {
+      margin: 0;
+      font-size: 1rem;
+    }
+
+    /* Responsive Styles */
+    @media (max-width: 768px) {
+      header {
+        padding: 1rem;
+      }
+
+      header h1 {
+        font-size: 1.5rem;
+      }
+
+      header nav {
+        flex-direction: column;
+      }
+
+      main {
+        padding: 1rem;
+      }
+
+      .content h2 {
+        font-size: 1.5rem;
+      }
+
+      .content h3 {
+        font-size: 1.25rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Regenerative Agriculture</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="practices.html">Practices</a>
+        <a href="contact.html">Contact Us</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="content">
+      <h2>Introduction to Regenerative Agriculture</h2>
+      <p>Regenerative agriculture is an approach to farming that focuses on regenerating soil health, increasing biodiversity, and restoring ecosystem functions. It emphasizes practices that work in harmony with nature to enhance the long-term sustainability of agricultural systems.</p>
+
+      <h3>Principles of Regenerative Agriculture</h3>
+      
+      <h3>1. Soil Health</h3>
+      <p>Maintaining and improving soil health is a core principle of regenerative agriculture. Practices like cover cropping, reduced tillage, and organic amendments help to build soil organic matter, improve nutrient cycling, and enhance soil structure.</p>
+
+      <h3>2. Biodiversity</h3>
+      <p>Promoting biodiversity on the farm increases resilience and stability. This includes growing a variety of crops, integrating livestock, and creating habitats for beneficial insects and wildlife.</p>
+
+      <h3>3. Water Management</h3>
+      <p>Effective water management techniques, such as rainwater harvesting and contour plowing, help to conserve water, reduce erosion, and enhance soil moisture retention.</p>
+
+      <h3>4. Ecosystem Restoration</h3>
+      <p>Restoring natural ecosystems and processes is a key aspect of regenerative agriculture. This involves rehabilitating degraded lands, reintroducing native species, and supporting natural ecological functions.</p>
+
+      <h3>5. Climate Resilience</h3>
+      <p>Regenerative agriculture aims to build resilience to climate change by improving soil health, sequestering carbon, and creating more stable and adaptable farming systems.</p>
+
+      <p>By adopting regenerative practices, farmers can contribute to a more sustainable and resilient agricultural system, while also enhancing the health of the land and the environment.</p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Our Organization. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>

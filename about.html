@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    /* Color Palette */
+:root {
+    --first-color: #388e3c; /* Dark Green */
+    --second-color: #8bc34a; /* Light Green */
+    --third-color: #dce775; /* Pale Lime */
+    --fourth-color: #fff59d; /* Light Yellow */
+}
+
+/* Reset some default styles */
+body,
+h1,
+h2,
+p {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+  font-family: "Arial", sans-serif;
+  line-height: 1.8;
+  color: #333;
+  background-color: var(--third-color); /* Pale Lime */
+  padding: 0;
+  margin: 0;
+}
+
+/* Container */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Header Styles */
+header {
+  background-color: var(--first-color); /* Dark Green */
+  color: #ffffff;
+  padding: 1rem 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 1000;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+header nav {
+  display: flex;
+  gap: 1rem;
+}
+
+header nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s, transform 0.3s;
+}
+
+header nav a:hover {
+  color: var(--second-color); /* Light Green */
+  transform: translateY(-2px);
+}
+
+/* Main Content Styles */
+main {
+  padding: 2rem 0;
+}
+
+main .content {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer Styles */
+footer {
+  background-color: var(--first-color); /* Dark Green */
+  color: #ffffff;
+  padding: 1.5rem 0;
+  text-align: center;
+  box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 1000;
+}
+
+footer .container {
+  display: flex;
+  justify-content: center;
+}
+
+footer p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  header {
+    padding: 1rem;
+  }
+
+  header h1 {
+    font-size: 1.5rem;
+  }
+
+  header nav {
+    flex-direction: column;
+  }
+
+  main .content {
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  header h1 {
+    font-size: 1.25rem;
+  }
+
+  header nav a {
+    font-size: 0.9rem;
+  }
+
+  footer p {
+    font-size: 0.9rem;
+  }
+}
+
+</style>
+<body>
+    <header>
+        <div class="container">
+          <h1>About Us</h1>
+          <nav>
+            <a href="index.html">Home</a>
+          </nav>
+        </div>
+      </header>
+    
+      <main>
+        <section class="content">
+          <h2>About Our Organization</h2>
+          <p>Welcome to our About Us page. We are a forward-thinking organization committed to advancing sustainable practices and environmental stewardship. Our mission is to promote eco-friendly solutions that make a real difference in our communities and beyond.</p>
+    
+          <p>Founded in 2020, we have dedicated ourselves to researching and implementing innovative technologies that reduce our carbon footprint and enhance resource efficiency. Our team consists of experts in various fields, including environmental science, engineering, and community outreach.</p>
+    
+          <p>We believe in the power of collaboration and work closely with local governments, businesses, and non-profits to drive impactful change. Through our programs, we aim to educate the public about sustainable living and provide actionable steps to adopt greener practices.</p>
+    
+          <p>Our core values include transparency, integrity, and commitment to excellence. We continuously strive to improve our processes and stay ahead of emerging trends in sustainability. Our work is guided by the principle that every small action contributes to a larger positive impact on the planet.</p>
+    
+          <p>In addition to our research and development efforts, we host workshops, seminars, and community events to engage and inspire individuals to take part in the green movement. We also offer consultancy services to help businesses and organizations develop and implement their own sustainability strategies.</p>
+    
+          <p>We invite you to explore our website to learn more about our projects and initiatives. Together, we can create a more sustainable future for generations to come.</p>
+        </section>
+      </main>
+    
+      <footer>
+        <div class="container">
+          <p>&copy; 2024 Our Organization. All rights reserved.</p>
+        </div>
+      </footer>
+</body>
+</html>
